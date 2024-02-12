@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.container a{
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: .5rem;
+    /* margin-bottom: .5rem; */
+    text-decoration: none;
+}
+.container h2{
+    color: #1e2662;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 1rem;
+}
+.container p{
+    text-align: center;
+    color: black;
+}
+.container .contact{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.container .contact .call{
+    background-color: #dce3f5;
+    display: flex;
+}
+.container .contact .call div{
+    margin: 1rem;
+}
+.container .contact .Mail{
+    background-color: #dce3f5;
+    display: flex;
+}
+.container .contact .Mail div{
+    margin: 1rem;
+}
+.container .right{
+    background-color: #dce3f5;
+    padding-left: 2rem;
+}
+.container .right .first-row ,.second-row,.third-row,.other,input{
+    display: flex;
+    margin: .5rem;
+}
